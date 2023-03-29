@@ -391,14 +391,14 @@ http://www.france-ioi.org/user/perso.php?sLogin=nezgodique
 
 #### [2 – Arbres](http://www.france-ioi.org/algo/chapter.php?idChapter=531)
 
-| Puzzle                                                                                        | Status            | Languages |
-| --------------------------------------------------------------------------------------------- | ----------------- | --------- |
-| [Retrouver un produit](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=373)      | :x: Not Completed |
-| [Longueur des descriptions](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=375) | :x: Not Completed |
-| [Carton commun](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=376)             | :x: Not Completed |
-| [Pile de cartons](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=1837)          | :x: Not Completed |
-| [Anti-virus](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=377)                | :x: Not Completed |
-| [Fibre optique](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=983)             | :x: Not Completed |
+| Puzzle                                                                                        | Status                 | Languages                                                                                                                              |
+| --------------------------------------------------------------------------------------------- | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| [Retrouver un produit](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=373)      | :x: 6/10 Not Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%204/2%20%E2%80%93%20Arbres/1%20-%20Retrouver%20un%20produit.py) |
+| [Longueur des descriptions](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=375) | :x: Not Completed      |
+| [Carton commun](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=376)             | :x: Not Completed      |
+| [Pile de cartons](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=1837)          | :x: Not Completed      |
+| [Anti-virus](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=377)                | :x: Not Completed      |
+| [Fibre optique](http://www.france-ioi.org/algo/task.php?idChapter=531&idTask=983)             | :x: Not Completed      |
 
 #### [3 – Structures de données et Balayages](http://www.france-ioi.org/algo/chapter.php?idChapter=532)
 
