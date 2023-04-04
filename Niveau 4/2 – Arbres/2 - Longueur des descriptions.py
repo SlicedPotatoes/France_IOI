@@ -6,12 +6,12 @@ class Node:
   def add_child(self, child):
      self.childs.append(child)
 def findLongestPath(node, depth):
-   if len(node.childs) == 0:
+   if len(node.childs) == 0: # Return la longeur quand on arrive a une feuille de l'arbre
       return depth
    maxDepth = 0
-   for child in node.childs:
-      d = findLongestPath(child, depth + 1)
-      if d > maxDepth:
+   for child in node.childs: # Parcours les enfants de la node actuelle 
+      d = findLongestPath(child, depth + 1) # profondeur pour l'enfant actuel
+      if d > maxDepth: # Garde la profondeur la plus grande pour chaque enfant
          maxDepth = d
    return maxDepth
       
