@@ -1,7 +1,8 @@
 # France_IOI
 
 All the exercises I solved on France-IOI
-http://www.france-ioi.org/user/perso.php?sLogin=nezgodique
+[Python Profile](http://www.france-ioi.org/user/perso.php?sLogin=nezgodique)
+[C++ Profile](https://www.france-ioi.org/user/perso.php?sLogin=nezgodiquecpp)
 
 ## Completed Puzzles
 
@@ -9,14 +10,14 @@ http://www.france-ioi.org/user/perso.php?sLogin=nezgodique
 
 #### [1 – Affichage de texte, suite d'instructions](http://www.france-ioi.org/algo/chapter.php?idChapter=642)
 
-| Puzzle                                                                                       | Status                       | Languages                                                                                                                                                                             |
-| -------------------------------------------------------------------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Hello world!](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1869)            | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/1%20-%20Hello%20world!.py)              |
-| [Présentation](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1871)            | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/2%20-%20Pr%C3%A9sentation.py)           |
-| [Plan de la montagne](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1870)     | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/3%20-%20Plan%20de%20la%20montagne.py)   |
-| [Dans le fourré](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1872)          | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/4%20-%20Dans%20le%20fourr%C3%A9.py)     |
-| [Empilement de cylindres](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1873) | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/5%20-%20Empilement%20de%20cylindres.py) |
-| [Recette secrète](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1874)         | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/6%20-%20Recette%20secr%C3%A8te.py)      |
+| Puzzle                                                                                       | Status                       | Languages                                                                                                                                                                                     |
+| -------------------------------------------------------------------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Hello world!](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1869)            | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/1%20-%20Hello%20world!.py) [C++]()              |
+| [Présentation](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1871)            | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/2%20-%20Pr%C3%A9sentation.py) [C++]()           |
+| [Plan de la montagne](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1870)     | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/3%20-%20Plan%20de%20la%20montagne.py) [C++]()   |
+| [Dans le fourré](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1872)          | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/4%20-%20Dans%20le%20fourr%C3%A9.py) [C++]()     |
+| [Empilement de cylindres](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1873) | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/5%20-%20Empilement%20de%20cylindres.py) [C++]() |
+| [Recette secrète](http://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1874)         | :heavy_check_mark: Completed | [Python](https://github.com/SlicedPotatoes/France_IOI/blob/main/Niveau%201/1%20%E2%80%93%20Affichage%20de%20texte%2C%20suite%20d'instructions/6%20-%20Recette%20secr%C3%A8te.py) [C++]()      |
 
 #### [2 – Répétitions d'instructions](http://www.france-ioi.org/algo/chapter.php?idChapter=643)
 
