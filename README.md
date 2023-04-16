@@ -1,8 +1,8 @@
 # France_IOI
 
 All the exercises I solved on France-IOI<br>
-[Python Profile](http://www.france-ioi.org/user/perso.php?sLogin=nezgodique)<br>
-[C++ Profile](https://www.france-ioi.org/user/perso.php?sLogin=nezgodiquecpp)
+[Python Profile](https://www.france-ioi.org/user/perso.php?sLogin=slicedpotatoes)<br>
+[C++ Profile](https://www.france-ioi.org/user/perso.php?sLogin=slicedpotatoescpp)
 
 ## Completed Puzzles
 
