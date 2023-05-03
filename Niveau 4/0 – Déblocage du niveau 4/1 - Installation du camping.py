@@ -19,6 +19,11 @@ def main():
                 dp[i][j] = caseValue
                 if caseValue > maxSquare:
                     maxSquare = caseValue
+
+    for i in range(nbLignes):
+        for j in range(nbCol):
+            print(dp[i][j], end="")
+        print()
     print(maxSquare)
 
 main()

@@ -502,3 +502,15 @@ All the exercises I solved on France-IOI<br>
 | [Noeuds d'articulation](http://www.france-ioi.org/algo/task.php?idChapter=762&idTask=902)          | :x: Not Completed |
 | [Intervention des pompiers - I](http://www.france-ioi.org/algo/task.php?idChapter=762&idTask=906)  | :x: Not Completed |
 | [Intervention des pompiers - II](http://www.france-ioi.org/algo/task.php?idChapter=762&idTask=910) | :x: Not Completed |
+
+### Epreuves de concours
+
+#### Concours Algoréa 2013 : Tour 1
+
+| Puzzle                                                                                                      | Status                       | Languages  |
+| ----------------------------------------------------------------------------------------------------------- | ---------------------------- | ---------- |
+| [Challenge 1 - Exploration de cavernes](https://www.france-ioi.org/algo/task.php?idChapter=841&idTask=2751) | :heavy_check_mark: Completed | [Python]() |
+| [Challenge 2 - Jardins Zen](https://www.france-ioi.org/algo/task.php?idChapter=841&idTask=2752)             | :heavy_check_mark: Completed | [Python]() |
+| [Challenge 3 - Prochaine fin du monde](https://www.france-ioi.org/algo/task.php?idChapter=841&idTask=2514)  | :heavy_check_mark: Completed | [Python]() |
+| [Challenge 4 - Incendies de montagne](https://www.france-ioi.org/algo/task.php?idChapter=841&idTask=2515)   | :heavy_check_mark: Completed | [Python]() |
+| [Challenge 5 - Dernier niveau](https://www.france-ioi.org/algo/task.php?idChapter=841&idTask=2516)          | :heavy_check_mark: Completed | [Python]() |
