@@ -1,4 +1,3 @@
-#Passe 12/20 car probleme de rapidité / mémoire utilisé
 import sys
 def main():
     MAX_ELEVE = 5 + 1
