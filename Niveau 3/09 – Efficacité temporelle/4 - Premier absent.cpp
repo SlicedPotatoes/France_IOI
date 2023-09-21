@@ -2,69 +2,32 @@
 
 using namespace std;
 
-const int MAX_ELEVE = 250 * 1000;
-int arr[MAX_ELEVE];
-int index = 0;
-int actuelPlusPetit = 1;
-
-int rechercheDichotomique(int x)
-{
-  int i = 0;
-  int j = index - 1;
-  while (i <= j)
-  {
-    int mid = (i + j) / 2;
-    if (arr[mid] == x)
-    {
-      return -1;
-    }
-    else if (arr[mid] < x)
-    {
-      i = mid + 1;
-    }
-    else
-    {
-      j = mid - 1;
-    }
-  }
-  return i;
-}
-void addElement(int n)
-{
-  int pos = rechercheDichotomique(n);
-  for (int k = index - 1; k >= pos; k--)
-  {
-    arr[k + 1] = arr[k];
-  }
-  arr[pos] = n;
-  index++;
-}
+const int MAX_ELEVE = 250 * 1000 + 1;
+bool arr[MAX_ELEVE];
 
 int main()
 {
   ios::sync_with_stdio(false);
   int N, P;
   cin >> N >> P;
-
+  int minEleve = 1;
   for (int i = 0; i < P; i++)
   {
     int idEleve;
     cin >> idEleve;
-    addElement(idEleve);
-    while (idEleve == actuelPlusPetit)
+    if (idEleve < MAX_ELEVE)
     {
-      actuelPlusPetit++;
-      int found = rechercheDichotomique(actuelPlusPetit);
-      if (found == -1)
+      arr[idEleve] = true;
+      while (minEleve != -1 && minEleve < MAX_ELEVE && arr[minEleve])
       {
-        idEleve = actuelPlusPetit;
+        minEleve++;
+        if (minEleve == N + 1)
+        {
+          minEleve = -1;
+        }
       }
     }
-    if (actuelPlusPetit == N + 1)
-    {
-      actuelPlusPetit = -1;
-    }
-    cout << actuelPlusPetit << '\n';
+    cout << minEleve << '\n';
   }
   return 0;
 }
