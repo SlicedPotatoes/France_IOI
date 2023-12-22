@@ -1,103 +1,118 @@
-// Ne passe pas tout les tests
+#include <algorithm>
 #include <iostream>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
-struct point
+struct Point
 {
-  int x, y;
-};
-enum Axe
-{
-  Horizontal = 0,
-  Vertical = 1
+    int x, y;
 };
 
+struct SortingPoint
+{
+    char dir;
+
+    SortingPoint(char c) : dir(c)
+    {
+    }
+
+    bool operator()(Point &p1, Point &p2) const
+    {
+        if (dir == 'N')
+        {
+            return p1.y < p2.y;
+        }
+        else if (dir == 'S')
+        {
+            return p1.y > p2.y;
+        }
+        else if (dir == 'E')
+        {
+            return p1.x > p2.x;
+        }
+        else if (dir == 'O')
+        {
+            return p1.x < p2.x;
+        }
+        else
+        {
+            cout << "Err: Sort badDir\n";
+            return false;
+        }
+    }
+};
+
+int H, W;
+vector<Point> listBilles;
 const int MAX_LENGTH = 40;
 char map[MAX_LENGTH][MAX_LENGTH];
-int H, W;
-vector<point> listBilles;
 
-bool sortBilleH(point &a, point &b)
+void simuMove(char c)
 {
-  return a.x > b.x;
-}
-bool sortBilleV(point &a, point &b)
-{
-  return a.y > b.y;
-}
+    sort(listBilles.begin(), listBilles.end(), SortingPoint(c));
+    int dx = c == 'E' ? 1 : (c == 'O' ? -1 : 0);
+    int dy = c == 'S' ? 1 : (c == 'N' ? -1 : 0);
 
-void simulateMovement(char dir)
-{
-  vector<point *> elementsADelete;
-  int axe = (dir == 'S' || dir == 'N') ? Vertical : Horizontal;
-  int indiceIncr = dir == 'S' || dir == 'E' ? 1 : -1;
-  if (dir == 'N' || dir == 'S')
-  {
-    sort(listBilles.begin(), listBilles.end(), sortBilleV);
-  }
-  else
-  {
-    sort(listBilles.begin(), listBilles.end(), sortBilleH);
-  }
-  if (dir == 'N' || dir == 'O')
-  {
-    reverse(listBilles.begin(), listBilles.end());
-  }
+    vector<size_t> needToPop;
 
-  for (point &p : listBilles)
-  {
-    map[p.y][p.x] = '.';
-    char actualCase = map[p.y][p.x];
-    while (actualCase == '.' && p.y >= 0 && p.y < H && p.x >= 0 && p.x < W)
+    for (size_t i = 0; i < listBilles.size(); i++)
     {
-      p.y += (axe == Vertical ? indiceIncr : 0);
-      p.x += (axe == Horizontal ? indiceIncr : 0);
-      actualCase = map[p.y][p.x];
+        Point *it = &listBilles[i];
+        int x = it->x + dx;
+        int y = it->y + dy;
+
+        while (map[y][x] == '.')
+        {
+            x += dx;
+            y += dy;
+        }
+
+        map[it->y][it->x] = '.';
+
+        if (map[y][x] == 'O')
+        {
+            needToPop.push_back(i);
+        }
+        else
+        {
+            it->y = y - dy;
+            it->x = x - dx;
+            map[it->y][it->x] = 'x';
+        }
     }
-    if (actualCase != 'O')
+
+    for (size_t i = 0; i < needToPop.size(); i++)
     {
-      p.y -= (axe == Vertical ? indiceIncr : 0);
-      p.x -= (axe == Horizontal ? indiceIncr : 0);
-      map[p.y][p.x] = 'x';
+        listBilles.erase(listBilles.begin() + needToPop[i] - i);
     }
-    else
-    {
-      elementsADelete.push_back(&p);
-    }
-  }
-  for (point *element : elementsADelete)
-  {
-    listBilles.erase(listBilles.begin() + (element - &listBilles[0]));
-  }
 }
 
 int main()
 {
-  ios::sync_with_stdio(false);
-  cin >> H >> W;
-  for (int i = 0; i < H; i++)
-  {
-    for (int j = 0; j < W; j++)
+    ios::sync_with_stdio(false);
+    cin >> H >> W;
+    for (int y = 0; y < H; y++)
     {
-      char element;
-      cin >> element;
-      map[i][j] = element;
-      if (element == 'x')
-      {
-        listBilles.push_back({j, i});
-      }
+        for (int x = 0; x < W; x++)
+        {
+            char element;
+            cin >> element;
+            map[y][x] = element;
+            if (element == 'x')
+            {
+                listBilles.push_back({x, y});
+            }
+        }
     }
-  }
-  int nbCoup;
-  cin >> nbCoup;
-  for (int i = 0; i < nbCoup; i++)
-  {
-    char coup;
-    cin >> coup;
-    simulateMovement(coup);
-  }
-  cout << listBilles.size();
+
+    int nbCoup;
+    cin >> nbCoup;
+    for (int i = 0; i < nbCoup; i++)
+    {
+        char coup;
+        cin >> coup;
+        simuMove(coup);
+    }
+    cout << listBilles.size();
 }
