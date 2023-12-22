@@ -403,21 +403,21 @@ All the exercises I solved on France-IOI<br>
 
 #### [3 – Structures de données et Balayages](http://www.france-ioi.org/algo/chapter.php?idChapter=532)
 
-| Puzzle                                                                                                                  | Status            | Languages |
-| ----------------------------------------------------------------------------------------------------------------------- | ----------------- | --------- |
-| [Parc d'attraction](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1797)                                  | :x: Not Completed |
-| [Bentley](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1)                                               | :x: Not Completed |
-| [Nombreux produits](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=372)                                   | :x: Not Completed |
-| [Émissions](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1832)                                          | :x: Not Completed |
-| [Festival de musique](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1800)                                | :x: Not Completed |
-| [Peinture](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1798)                                           | :x: Not Completed |
-| [Fête foraine](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1833)                                       | :x: Not Completed |
-| [Maisons pour philatélistes](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=919)                          | :x: Not Completed |
-| [Temps de travail](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=755)                                    | :x: Not Completed |
-| [Augmenter la fréquentation](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1129)                         | :x: Not Completed |
-| [Affectation des salles](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1131)                             | :x: Not Completed |
-| [Fermeture annuelle](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1132)                                 | :x: Not Completed |
-| [Couvrir des points avec un segment de longueur fixe](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=925) | :x: Not Completed |
+| Puzzle                                                                                                                  | Status                       | Languages           |
+| ----------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ------------------- |
+| [Parc d'attraction](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1797)                                  | :heavy_check_mark: Completed | [Python](), [C++]() |
+| [Bentley](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1)                                               | :x: Not Completed            |
+| [Nombreux produits](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=372)                                   | :x: Not Completed            |
+| [Émissions](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1832)                                          | :x: Not Completed            |
+| [Festival de musique](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1800)                                | :x: Not Completed            |
+| [Peinture](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1798)                                           | :x: Not Completed            |
+| [Fête foraine](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1833)                                       | :x: Not Completed            |
+| [Maisons pour philatélistes](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=919)                          | :x: Not Completed            |
+| [Temps de travail](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=755)                                    | :x: Not Completed            |
+| [Augmenter la fréquentation](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1129)                         | :x: Not Completed            |
+| [Affectation des salles](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1131)                             | :x: Not Completed            |
+| [Fermeture annuelle](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1132)                                 | :x: Not Completed            |
+| [Couvrir des points avec un segment de longueur fixe](http://www.france-ioi.org/algo/task.php?idChapter=532&idTask=925) | :x: Not Completed            |
 
 #### [4 – Récursivité avancée](http://www.france-ioi.org/algo/chapter.php?idChapter=530)
 
