@@ -514,3 +514,13 @@ All the exercises I solved on France-IOI<br>
 | [Challenge 3 - Prochaine fin du monde](https://www.france-ioi.org/algo/task.php?idChapter=841&idTask=2514)  | :heavy_check_mark: Completed | [Python](./Concours%20Algoréa/2013/Tour%201/3%20-%20Challenge%203%20-%20Prochaine%20fin%20du%20monde.py) |
 | [Challenge 4 - Incendies de montagne](https://www.france-ioi.org/algo/task.php?idChapter=841&idTask=2515)   | :heavy_check_mark: Completed | [Python](./Concours%20Algoréa/2013/Tour%201/4%20-%20Challenge%204%20-%20Incendies%20de%20montagne.py)    |
 | [Challenge 5 - Dernier niveau](https://www.france-ioi.org/algo/task.php?idChapter=841&idTask=2516)          | :heavy_check_mark: Completed | [Python](./Concours%20Algoréa/2013/Tour%201/5%20-%20Challenge%205%20-%20Dernier%20niveau.py)             |
+
+#### Concours Algoréa 2013 : Tour 1
+
+| Puzzle                                                                                                 | Status                       | Languages                                                                                        |
+| ------------------------------------------------------------------------------------------------------ | ---------------------------- | ------------------------------------------------------------------------------------------------ |
+| [Challenge 1 - Entrée du temple](https://www.france-ioi.org/algo/task.php?idChapter=844&idTask=2768)   | :heavy_check_mark: Completed | [Python](./Concours%20Algoréa/2013/Tour%202/1%20-%20Challenge%201%20-%20Entrée%20du%20temple.py) |
+| [Challenge 2 - Tunnel encombré](https://www.france-ioi.org/algo/task.php?idChapter=844&idTask=2769)    | :heavy_check_mark: Completed | [Python](./Concours%20Algoréa/2013/Tour%202/2%20-%20Challenge%202%20-%20Tunnel%20encombré.py)    |
+| [Challenge 3 - Salle du trésor](https://www.france-ioi.org/algo/task.php?idChapter=844&idTask=2770)    | :heavy_check_mark: Completed | [Python](./Concours%20Algoréa/2013/Tour%202/3%20-%20Challenge%203%20-%20Salle%20du%20trésor.py)  |
+| [Challenge 4 - Statues](https://www.france-ioi.org/algo/task.php?idChapter=844&idTask=2748)            | :heavy_check_mark: Completed | [Python](./Concours%20Algoréa/2013/Tour%202/4%20-%20Challenge%204%20-%20Statues.py)              |
+| [Challenge 5 - Descente en rappel](https://www.france-ioi.org/algo/task.php?idChapter=844&idTask=2517) | :heavy_check_mark: Completed | [C++](./Concours%20Algoréa/2013/Tour%202/Challenge%205%20-%20Descente%20en%20rappel.cpp)         |
