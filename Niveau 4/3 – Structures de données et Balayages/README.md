@@ -12,7 +12,7 @@
 | Peinture                                            | :heavy_check_mark: Completed | [Python](./6%20-%20Peinture.py), [C++](./6%20-%20Peinture.cpp)                                             |
 | Fête foraine                                        | :heavy_check_mark: Completed | [Python](./7%20-%20Fête%20foraine.py), [C++](./7%20-%20Fête%20foraine.cpp)                                 |
 | Maisons pour philatélistes                          | :heavy_check_mark: Completed | [Python](./8%20-%20Maisons%20pour%20philatélistes.py), [C++](./8%20-%20Maisons%20pour%20philatélistes.cpp) |
-| Temps de travail                                    | :x: Not Completed            |
+| Temps de travail                                    | :heavy_check_mark: Completed | [Python](./9%20-%20Temps%20de%20travail.py), [C++](./9%20-%20Temps%20de%20travail.cpp)                     |
 | Augmenter la fréquentation                          | :x: Not Completed            |
 | Affectation des salles                              | :x: Not Completed            |
 | Fermeture annuelle                                  | :x: Not Completed            |
