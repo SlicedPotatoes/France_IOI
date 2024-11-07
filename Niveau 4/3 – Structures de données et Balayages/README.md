@@ -13,7 +13,7 @@
 | Fête foraine                                        | :heavy_check_mark: Completed | [Python](./07%20-%20Fête%20foraine.py), [C++](./07%20-%20Fête%20foraine.cpp)                                 |
 | Maisons pour philatélistes                          | :heavy_check_mark: Completed | [Python](./08%20-%20Maisons%20pour%20philatélistes.py), [C++](./08%20-%20Maisons%20pour%20philatélistes.cpp) |
 | Temps de travail                                    | :heavy_check_mark: Completed | [Python](./09%20-%20Temps%20de%20travail.py), [C++](./09%20-%20Temps%20de%20travail.cpp)                     |
-| Augmenter la fréquentation                          | :x: Not Completed            |
+| Augmenter la fréquentation                          | :heavy_check_mark: Completed | [Python](./10%20-%20Augmenter%20la%20fréquentation.py), [C++](./10%20-%20Augmenter%20la%20fréquentation.cpp) |
 | Affectation des salles                              | :x: Not Completed            |
 | Fermeture annuelle                                  | :x: Not Completed            |
 | Couvrir des points avec un segment de longueur fixe | :x: Not Completed            |
